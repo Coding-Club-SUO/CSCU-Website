@@ -74,7 +74,7 @@ export const TEAM = {
       title: 'External',
       members: [
         { name: 'Kevin', role: 'External Relations Coordinator', bio: 'Placeholder bio text.', image: '/kevin.png' },
-        {name: 'Moon', role: 'Head of Operations - External', bio: 'Placeholder bio text.', image: '/moon.png'}
+        { name: 'Moon', role: 'Head of Operations - External', bio: 'Placeholder bio text.', image: '/moon.png' }
       ],
     },
     {
@@ -123,7 +123,7 @@ export const CONTRIBUTE = {
   pastTitle: 'Past project members',
   // Placeholder names; replace with real project members.
 
-  current: ['Hakim Rashid', 'AbdulHaady Oludare', 'Lucio De Musso', 'Paul Daoud', "Nathaniel Hawron"],
+  current: ['Hakim Rashid', 'AbdulHaady Oludare', 'Lucio De Musso', 'Paul Daoud', "Nathaniel Hawron", 'Dilpreet Seehra', 'Tommy (Jingsong) Guo', 'Kiefer Menard'],
 
   past: ['Krish Khullar', 'Janhvi'],
 }
