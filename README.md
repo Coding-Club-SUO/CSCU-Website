@@ -95,8 +95,8 @@ Development images watch for file changes: the source folders are mounted into t
 docker compose up --build
 ```
 
-- **Frontend** (`cscu-frontend:dev`): `next dev` with hot reload, at http://localhost:3000 (`NEXT_PORT`).
-- **Backend** (`cscu-backend:dev`): Gradle recompiles on save and Spring Boot DevTools restarts the app, at http://localhost:8000 (`SPRING_PORT`).
+- **Frontend** (`cscu-frontend:dev`): `next dev` with hot reload, at <http://localhost:3000> (`NEXT_PORT`).
+- **Backend** (`cscu-backend:dev`): Gradle recompiles on save and Spring Boot DevTools restarts the app, at <http://localhost:8000> (`SPRING_PORT`).
 - Redis, PostgreSQL and SeaweedFS start alongside.
 
 If you change dependencies, rebuild with `docker compose up --build -V` so the frontend `node_modules` volume is refreshed.
@@ -150,6 +150,20 @@ docker compose logs -f backend       # follow backend logs
 docker compose logs -f frontend      # follow frontend logs
 docker compose restart backend       # restart one service
 ```
+
+## Accesing codebase with devcontainer
+
+### VS Code
+
+1. Make sure both docker and the Dev Containers extension are installed and running
+2. Open your cloned repository in VS Code
+3. Type (F1 or Ctrl+Shift+P) + Dev Containers: Reopen in Container
+
+### Github Codebases
+
+1. Click the green code button in the top right of the repository
+2. Select the codespaces branch
+3. click Create codespaces on ___ (either on main or on the curently selected branch)
 
 ---
 
